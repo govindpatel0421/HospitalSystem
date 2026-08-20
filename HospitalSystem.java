@@ -5,8 +5,7 @@ public class HospitalSystem {
     // Database credentials
     static final String URL = "jdbc:mysql://localhost:3306/hospitaldb";
     static final String USER = "root";
-    static final String PASS = "root"; // <-- CHANGE THIS TO YOUR MYSQL PASSWORD
-
+    static final String PASS = "********"; 
     public static void main(String[] args) {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
